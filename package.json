@@ -29,6 +29,9 @@
       "plugin:vue/essential",
       "eslint:recommended"
     ],
+    "ignorePatterns": [
+      "src/assets/js/*.min.js"
+    ],
     "parserOptions": {
       "parser": "babel-eslint"
     },
